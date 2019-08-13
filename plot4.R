@@ -21,7 +21,7 @@ with(df1, {
   legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n",
          legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
   plot(Global_Reactive_Power~Datetime, type="l", 
-       ylab="Global Rective Power (kilowatts)",xlab="")
+       ylab="Global Reactive Power (kilowatts)",xlab="")
 })
 #send plot to file
 png("plot4.png", width=480, height=480)
